@@ -88,7 +88,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#080808", 
+      primary: "#000000", 
       secondary: "#0a0a0a", 
 
       // Standard status colors for success/error/warning/info messages.
@@ -112,8 +112,8 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#0a0a0a",
-        ended: "#0a0a0a",
+        active: "#000000",
+        ended: "#000000",
       },
       ticket: {
         open: "#0a0a0a",
