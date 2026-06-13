@@ -117,7 +117,7 @@ export const botConfig = {
       },
       ticket: {
         open: "#0a0a0a",
-        claimed: "#f4f4f5",
+        claimed: "#0a0a0a",
         closed: "#0a0a0a",
         pending: "#0a0a0a",
       },
