@@ -6,7 +6,7 @@ export const botConfig = {
   // BOT PRESENCE (what users see under the bot name)
   // =========================
   // `status` options:
-  // - "online"    = green dot
+  // - "idle"    = yellow moon
   // - "idle"      = yellow moon
   // - "dnd"       = red do-not-disturb
   // - "invisible" = appears offline
@@ -63,9 +63,9 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
-      approved: "#00FF00",
-      denied: "#FF0000",
+      pending: "#0a0a0a",
+      approved: "#0a0a0a",
+      denied: "#0a0a0a",
     },
 
     // How long users must wait before submitting another application (hours).
@@ -89,21 +89,21 @@ export const botConfig = {
     colors: {
       // Main brand colors.
       primary: "#080808", 
-      secondary: "#2F3136", 
+      secondary: "#0a0a0a", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
-      warning: "#FEE75C", 
-      info: "#3498DB", 
+      success: "#0a0a0a", 
+      error: "#0a0a0a", 
+      warning: "#0a0a0a", 
+      info: "#0a0a0a", 
 
       // Neutral utility colors.
-      light: "#FFFFFF",
-      dark: "#202225",
-      gray: "#99AAB5",
+      light: "#0a0a0a",
+      dark: "#0a0a0a",
+      gray: "#0a0a0a",
 
       // Discord-style palette shortcuts.
-      blurple: "#5865F2",
+      blurple: "#0a0a0a",
       green: "#57F287",
       yellow: "#FEE75C",
       fuchsia: "#EB459E",
@@ -112,14 +112,14 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#0a0a0a",
+        ended: "#0a0a0a",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#0a0a0a",
+        claimed: "#f4f4f5",
+        closed: "#0a0a0a",
+        pending: "#0a0a0a",
       },
       economy: "#F1C40F",
       birthday: "#E91E63",
